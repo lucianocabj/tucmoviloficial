@@ -1,0 +1,128 @@
+/* Reseteo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  justify-content: center;
+}
+
+header {
+  background-color: #3c0c0c;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top:0;
+  z-index: 100;
+  
+}
+nav {
+}
+section{
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+
+.texto-footer {
+  color: springgreen;
+  text-contet: 1px;
+}
+.cajacontenedora {
+  overflow-x: scroll;
+  white-space: center;
+  width: 100%;
+}
+.product-grid {
+
+  display: inline-flex;
+  gap: 2.5rem;
+  scroll-snap-type: x mandatory;
+}
+
+.product-card {
+  border: 1px solid #ff0000;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    min-width: 250px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.contener-redes{
+  background-color: #ff0000;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #3c0c0c;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+    text-wrap: space-between;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+    }
+
+    .product-card {
+        margin-bottom: 1rem;
+    }
+}
+a {
+padding: 5px 10px
+}
+.texto-footer{
+  display: inline-block;
+  width: auto;
+  text-wrap: space-between;
+  display: inline-flex;
+}
+
+.contacto-footer {
+    scroll-behavior: smooth
+
+}
+.productos1{
+      scroll-behavior: smooth
+}
